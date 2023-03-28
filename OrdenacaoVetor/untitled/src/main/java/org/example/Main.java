@@ -105,7 +105,8 @@ public class Main {
         Arrays.stream(vetor).forEach(System.out::println);
     }
 
-    public static int buscaBinaria(int[] vetor, int chave) {
+    public static int buscaBinaria(int[ ] vetor, int chave) {
+        System.out.println("Pesquisa binária");
         int esquerda = 0;
         int direita = vetor.length - 1;
         while (esquerda <= direita) {
