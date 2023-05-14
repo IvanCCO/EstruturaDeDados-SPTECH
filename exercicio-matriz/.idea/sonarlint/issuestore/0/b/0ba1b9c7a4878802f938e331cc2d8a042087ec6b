@@ -1,0 +1,38 @@
+
+™
+java:S1192´"{Define a constant instead of duplicating this literal "----------------------------------------------------------" 3 times.(×Ş‹ô8¤˜€Âø0
+t	java:S127¤"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK8¤˜€Âø0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(­˜ïŒ8Ñ™€Âø0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ñ™€Âø0
+U	java:S106E"9Replace this use of System.out or System.err by a logger.(ÿäøÊ8Õ™€Âø0
+O
+java:S1481M"3Remove this unused "isNumeroValido" local variable.(àĞğh8Õ™€Âø0
+Z	java:S106c"9Replace this use of System.out or System.err by a logger.(³±¶üÿÿÿÿ8Ö™€Âø0
+Z	java:S106d"9Replace this use of System.out or System.err by a logger.(Ö¯¯Âüÿÿÿÿ8Ö™€Âø0
+[	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ÉğŸ¯üÿÿÿÿ8Ø™€Âø0
+[	java:S106’"9Replace this use of System.out or System.err by a logger.(—‘µóÿÿÿÿÿ8Ø™€Âø0
+[	java:S106”"9Replace this use of System.out or System.err by a logger.(®ùƒËúÿÿÿÿ8Ù™€Âø0
+[	java:S106™"9Replace this use of System.out or System.err by a logger.(ÅÙ«Šûÿÿÿÿ8Ù™€Âø0
+[	java:S106œ"9Replace this use of System.out or System.err by a logger.(¢¯¬üÿÿÿÿ8Ù™€Âø0
+[	java:S106"9Replace this use of System.out or System.err by a logger.(ìæ—Âúÿÿÿÿ8Ù™€Âø0
+[	java:S106£"9Replace this use of System.out or System.err by a logger.(Ù±²ÿÿÿÿÿ8Ú™€Âø0
+[	java:S106²"9Replace this use of System.out or System.err by a logger.(ãàÜşÿÿÿÿ8Ú™€Âø0
+n
+java:S3457³"Q%n should be used in place of \n to produce the platform-specific line separator.(ú‡Ø8Ú™€Âø0
+U	java:S106³"9Replace this use of System.out or System.err by a logger.(ú‡Ø8Ú™€Âø0
+V	java:S106´"9Replace this use of System.out or System.err by a logger.(×Ş‹ô8Û™€Âø0
+t
+java:S3457¶"Q%n should be used in place of \n to produce the platform-specific line separator.(Îƒ˜Áÿÿÿÿÿ8Û™€Âø0
+[	java:S106¶"9Replace this use of System.out or System.err by a logger.(Îƒ˜Áÿÿÿÿÿ8Û™€Âø0
+V	java:S106¸"9Replace this use of System.out or System.err by a logger.(×Ş‹ô8Û™€Âø0
+t
+java:S3457¹"Q%n should be used in place of \n to produce the platform-specific line separator.(µíÒ³ÿÿÿÿÿ8Û™€Âø0
+[	java:S106¹"9Replace this use of System.out or System.err by a logger.(µíÒ³ÿÿÿÿÿ8Û™€Âø0
+V	java:S106º"9Replace this use of System.out or System.err by a logger.(×Ş‹ô8İŒ‚Âø0
+J
+java:S1481Á",Remove this unused "matriz1" local variable.(Çá†Ô8Ü™€Âø0
+J
+java:S1481Â",Remove this unused "matriz2" local variable.(¨í›û8Ü™€Âø0
+^	java:S125Ä"<This block of commented-out lines of code should be removed.(±£ú†ÿÿÿÿÿ8Ü™€Âø0
+Y	java:S125Æ"<This block of commented-out lines of code should be removed.(µÌöç8Ü™€Âø0
+^	java:S125É"<This block of commented-out lines of code should be removed.(÷‡Çêûÿÿÿÿ8Ü™€Âø0

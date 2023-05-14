@@ -1,5 +1,7 @@
 package org.example;
 
+import java.sql.Array;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
@@ -77,6 +79,21 @@ public class Main {
             return quantidadeVetorDeImpares(vetor, index + 1);
 
         }
+    }
+
+    public static int[] twoSum(int[] nums, int target) {
+
+
+
+        for(int i = 0; i<nums.length; i++){
+            for(int j = 0; j<nums.length; j++){
+                boolean soma = nums[i] + nums[j] == target && i != j;
+                if(soma){
+                    return new int[]{i,j};
+                }
+            }
+        }
+        return nums;
     }
 
     // Dado um vetor de inteiros e um valor x retorna a quantidade de vezes que o valor x foi encontrado no vetor
@@ -203,20 +220,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] vetorInteiros = {1,2,3,4,45,2,2};
-
-
-        System.out.println(somaDosNumeros(5));
-        System.out.println(somaVetorRecursivo(vetorInteiros, 0));
-        System.out.println(somaVetorDePares(vetorInteiros, 0));
-        System.out.println(quantidadeVetorDeImpares(vetorInteiros, 0));
-        System.out.println(somaOcorrencia(vetorInteiros, 0, 2));
-        System.out.println(maiorElementoIterativa(vetorInteiros));
-        System.out.println(maiorElementoRecursiva(vetorInteiros, vetorInteiros.length));
-        System.out.println(binario(12));
-        System.out.println(euclidesRecursivo(90, 54));
-        System.out.println(euclidesIterativa(90, 54));
-
+        int[] vetorInteiros = {3,2,4};
+        System.out.println(Arrays.toString(twoSum(vetorInteiros, 6)));
     }
 
 }
