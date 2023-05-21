@@ -1,77 +1,97 @@
 package org.example;
 
-public class ListaObj <T> {
+import java.util.NoSuchElementException;
+
+public class ListaObj<T> {
 
     private T[] vetor;
 
     private int nroElem;
 
     public ListaObj(int tamanho) {
-
-
-
+        vetor = (T[]) new Object[tamanho];
+        nroElem = 0;
     }
 
-    // 04) Método adiciona:
-    // Recebe o elemento a ser adicionado na lista
-    // Se a lista estiver cheia usar IllegalStateException();
     public void adiciona(T elemento) {
-
+        if (nroElem == vetor.length) {
+            throw new IllegalStateException("A lista está cheia.");
+        }
+        vetor[nroElem++] = elemento;
     }
 
-    // 05) Método busca:
-    // Recebe o elemento a ser procurado na lista
-    // Retorna o índice do elemento, se for encontrado
-    // Retorna -1 se não encontrou
     public int busca(T elementoBuscado) {
+        for (int i = 0; i < nroElem; i++) {
+            if (vetor[i].equals(elementoBuscado)) {
+                return i;
+            }
+        }
         return -1;
     }
 
-    // 06) Método removePeloIndice:
-    // Recebe o índice do elemento a ser removido
-    // Se o índice for inválido, retorna false
-    // Se removeu, retorna true
-    public boolean removePeloIndice(int indice) {
-        return true;
+
+    public void removePeloIndice(int indice) {
+        if (indice < 0 || indice >= nroElem) {
+            throw new NoSuchElementException();
+        }
+        for (int i = indice; i < nroElem - 1; i++) {
+            vetor[i] = vetor[i + 1];
+        }
+        nroElem--;
     }
 
-    // 07) Método removeElemento
-    // Recebe um elemento a ser removido
-    // Utiliza os métodos busca e removePeloIndice
-    // Retorna false, se não encontrou o elemento
-    // Retorna true, se encontrou e removeu o elemento
-    public boolean removeElemento(T elementoARemover) {
-        return true;
+    public void removeElemento(T elementoARemover) {
+        int indice = busca(elementoARemover);
+        if (indice == -1) {
+            throw new NoSuchElementException();
+        }
+       removePeloIndice(indice);
     }
 
-    // 08) Método getTamanho
-    // Retorna o tamanho da lista
     public int getTamanho() {
-        return -1;
+        return nroElem;
     }
 
-    // 09) Método getElemento
-    // Recebe um índice e retorna o elemento desse índice
-    // Se o índice for inválido, retorna null
     public T getElemento(int indice) {
-        return null;
+        if (indice < 0 || indice >= nroElem) {
+            return null;
+        }
+        return vetor[indice];
     }
 
-    // 10) Método limpa
-    // Limpa a lista
     public void limpa() {
-
+        nroElem = 0;
     }
 
-    // 11) Método exibe:
-    // Exibe os elementos da lista
+
     public void exibe() {
-
+        for (int i = 0; i < nroElem; i++) {
+            System.out.print(vetor[i] + " ");
+        }
+        System.out.println();
     }
 
-    // Get do vetor
-    // Não retirar, é usado nos testes
     public T[] getVetor() {
-        return null;
+        return vetor;
     }
+
+    public void adicionaNoIndice(T valor, int indice) {
+        if (indice < 0 || indice > nroElem) {
+            System.out.println("Índice inválido");
+            return;
+        }
+
+        if (nroElem == vetor.length) {
+            throw new IllegalStateException("A lista está cheia");
+        }
+
+
+        for (int i = nroElem - 1; i >= indice; i--) {
+            vetor[i + 1] = vetor[i];
+        }
+
+        vetor[indice] = valor;
+        nroElem++;
+    }
+
 }

@@ -1,0 +1,27 @@
+
+L
+java:S1066B"/Merge this if statement with the enclosing one.(¿üğï8²À×ƒ1
+J
+java:S54117"(Use a primitive boolean expression here.(àÌ¶ùşÿÿÿÿ8¦¸Ş×ƒ1
+E
+java:S5411B"(Use a primitive boolean expression here.(¿üğï8¦¸Ş×ƒ1
+p
+java:S3776"SRefactor this method to reduce its Cognitive Complexity from 101 to the 15 allowed.(Çµí‘8ë²À×ƒ1
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ÿç¡Ãùÿÿÿÿ8î²À×ƒ1
+T	java:S1061"9Replace this use of System.out or System.err by a logger.(¤Öi8ï²À×ƒ1
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(’¯ªˆ8ï²À×ƒ1
+U	java:S106="9Replace this use of System.out or System.err by a logger.(¿´Ëç8ï²À×ƒ1
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(¿´Ëç8ğ²À×ƒ1
+T	java:S106Q"9Replace this use of System.out or System.err by a logger.(¤Öi8ğ²À×ƒ1
+U	java:S106S"9Replace this use of System.out or System.err by a logger.(’¯ªˆ8ğ²À×ƒ1
+U	java:S106_"9Replace this use of System.out or System.err by a logger.(¿´Ëç8ñ²À×ƒ1
+U	java:S106k"9Replace this use of System.out or System.err by a logger.(¿´Ëç8ñ²À×ƒ1
+Z	java:S106u"9Replace this use of System.out or System.err by a logger.(ìµÿÿÿÿÿ8ñ²À×ƒ1
+Z	java:S106{"9Replace this use of System.out or System.err by a logger.(Ğıíüüÿÿÿÿ8ñ²À×ƒ1
+[	java:S106"9Replace this use of System.out or System.err by a logger.(¦‡¦áşÿÿÿÿ8ò²À×ƒ1
+V	java:S106¢"9Replace this use of System.out or System.err by a logger.(» Çğ8ò²À×ƒ1
+V	java:S106¦"9Replace this use of System.out or System.err by a logger.(€á„8ò²À×ƒ1
+V	java:S106±"9Replace this use of System.out or System.err by a logger.(â ´8ó²À×ƒ1
+V	java:S106º"9Replace this use of System.out or System.err by a logger.(»·¯ó8ó²À×ƒ1
+V	java:S106Û"9Replace this use of System.out or System.err by a logger.(¸…£°8ô²À×ƒ1
+V	java:S106á"9Replace this use of System.out or System.err by a logger.(ˆ¿¾û8ô²À×ƒ1

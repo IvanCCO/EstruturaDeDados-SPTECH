@@ -1,0 +1,21 @@
+
+h
+java:S1192&"MDefine a constant instead of duplicating this literal "id invÃ¡lido" 3 times.(©Ğìûşÿÿÿÿ
+>
+java:S5411S"(Use a primitive boolean expression here.(Ü¨šª
+6
+java:S2326"T is not used in the class.(Úœ‘‘şÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(³üÒ úÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(©Ğìûşÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(é¼ÓĞıÿÿÿÿ
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(©Ğìûşÿÿÿÿ
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(Õ¶æı
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(©Ğìûşÿÿÿÿ
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(–…İØúÿÿÿÿ
+S	java:S106T"9Replace this use of System.out or System.err by a logger.(šØşşÿÿÿÿ
+N	java:S106}"9Replace this use of System.out or System.err by a logger.(Í˜Áµ
+T	java:S106€"9Replace this use of System.out or System.err by a logger.(ŒÜÆúÿÿÿÿ
+O	java:S106‡"9Replace this use of System.out or System.err by a logger.(€†‘
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+?
+java:S1068")Remove this unused "count" private field.(˜ì’ˆ
